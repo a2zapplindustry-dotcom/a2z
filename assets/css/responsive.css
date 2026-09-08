@@ -1,0 +1,66 @@
+/* Tablet Styles */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: white;
+    padding: 1rem;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem !important;
+  }
+  
+  .product-card {
+    margin-bottom: 1rem;
+  }
+  
+  .sticky-mobile-bar {
+    display: flex;
+  }
+  
+  .whatsapp-float {
+    bottom: 85px;
+    right: 15px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 1.6rem !important;
+  }
+  
+  .btn-primary-custom, .btn-outline-primary-custom {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .glass-card {
+    padding: 1.5rem !important;
+  }
+  
+  .brand-name {
+    font-size: 0.9rem;
+  }
+  
+  .gallery-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .offer-banner {
+    font-size: 0.75rem !important;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
