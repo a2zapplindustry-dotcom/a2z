@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a2zapplindustry-dotcom.github.io/a2z/sitemap.xml
